@@ -24,6 +24,7 @@ Scanner input = new Scanner(System.in);
        double gaji =( (gaji_pokok)-(gaji_pokok*potongan) + (jumlah_anak*tunjangan_anak)); 
        System.out.println("Gaji Pokok : "+ gaji);
 
+       input.close();
 
     }
 }

@@ -10,6 +10,7 @@ Scanner sc = new Scanner(System.in);
     jumlah_bayar = Harga-potongan;
     System.out.println("Jumlah yang Harus Anda Bayarkan = "+jumlah_bayar);
 
+    sc.close();
     }
     
 }

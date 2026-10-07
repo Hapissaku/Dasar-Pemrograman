@@ -13,5 +13,6 @@ public class TugasParkir15{
         System.out.println("Biaya anda adalah = " + tarif);}
     else
         System.out.println("Biaya anda adalah = " + (lama_parkir*1000));
+    input.close();
     }
 }

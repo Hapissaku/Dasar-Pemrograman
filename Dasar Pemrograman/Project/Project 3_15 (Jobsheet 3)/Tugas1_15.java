@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Tugas1_15 {
     public static void main(String[] args) {
 
-        int HargaAwal, DP, Bulan, HargaSetelahDP, Cicilan;
+        int HargaAwal, DP, Bulan;
         double bunga = 0.02;
 
     Scanner input = new Scanner(System.in);   
@@ -20,7 +20,7 @@ public class Tugas1_15 {
     System.out.println("Bunga               : " + bunga);
     System.out.println("Cicilan Tiap  Bulan : " + (((HargaAwal - DP) / Bulan) + ((HargaAwal - DP) * bunga)));
     System.out.println("***********************************");
-    
+    input.close();
     }
 }
     

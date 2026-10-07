@@ -22,11 +22,6 @@ public class Tugas2_15 {
 
 
 
-
-
-
-
-
-
+input.close();
     }
 }

@@ -35,7 +35,7 @@ public class PemilihanSwitch15{
             break;
 
     }
-
+sc.close();
 
 
     

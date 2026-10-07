@@ -1,12 +1,12 @@
 import java.util.Scanner;
 public class PemilihanElse15{
-    public static void main(String[] args){
-    
-        Scanner sc = new Scanner(System.in);
+   public static void main(String[] args){
 
-    System.out.println("-----Sistem Cetak KRS-----");
-    System.out.print("Masukan Semester Saat Ini = ");
-    int semester = sc.nextInt();
+      Scanner sc = new Scanner(System.in);
+
+   System.out.println("-----Sistem Cetak KRS-----");
+   System.out.print("Masukan Semester Saat Ini = ");
+   int semester = sc.nextInt();
 
          if(semester == 1){
             System.out.println("KRS Semester 1 Ditampilkan");
@@ -34,16 +34,8 @@ public class PemilihanElse15{
          else{
             System.out.println("semester tidak valid");
          }
+         sc.close();
+}
 
-    }
-
-
-
-    
-
-
-
-        
-
-    }
+}
 

@@ -18,7 +18,7 @@ public class PemilihanIF15{
 
 
 
-        
+        sc.close();
 
     }
 }

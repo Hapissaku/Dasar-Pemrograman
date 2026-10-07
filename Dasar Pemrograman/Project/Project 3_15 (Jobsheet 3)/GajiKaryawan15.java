@@ -11,6 +11,8 @@ public class GajiKaryawan15 {
     tot_gaji = gaji_pokok+tj_transport+tj_mkn+bonus-0.1*gaji_pokok;
     System.out.println("Total Gaji Anda = " + (int)tot_gaji);
 
+    sc.close();
+
     }
     
 }

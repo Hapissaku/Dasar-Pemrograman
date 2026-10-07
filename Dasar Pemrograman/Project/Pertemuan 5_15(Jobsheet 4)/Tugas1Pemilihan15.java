@@ -13,6 +13,6 @@ public class Tugas1Pemilihan15{
             : "Registrasi ditolak. Silakan lunasi UKT terlebih dahulu";
         
             System.out.println(pesan);
-
+sc.close();
     }
 }

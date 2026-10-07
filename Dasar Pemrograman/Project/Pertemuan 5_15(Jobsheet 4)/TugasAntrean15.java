@@ -26,5 +26,6 @@ public class TugasAntrean15 {
 
 
 }
+input.close();
 }
 }

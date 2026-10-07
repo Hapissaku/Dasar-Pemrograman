@@ -10,7 +10,7 @@ lebar = sc.nextInt();
 luas = panjang*lebar;
 System.out.print("Luas Persegi Panjang = " +luas);
 
-
+sc.close();
     
 }
 }
