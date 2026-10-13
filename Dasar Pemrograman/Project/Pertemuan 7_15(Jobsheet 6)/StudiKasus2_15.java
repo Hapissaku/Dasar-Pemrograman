@@ -11,16 +11,15 @@ public class StudiKasus2_15 {
     nama = sc.nextLine();
     System.out.print("Jenis Kegiatan (BELMAWA, BAKORMA, Mandiri, PKM, dll) = ");
     jenisKegiatan = sc.nextLine();   
-    
-    
+ 
 
     if (jenisKegiatan.equalsIgnoreCase("belmawa") || jenisKegiatan.equalsIgnoreCase("bakorma") 
         || jenisKegiatan.equalsIgnoreCase("mandiri")){
         System.out.print("Jumlah Dokumen Yang Diupload = ");
-        jumlahDokumen = sc.nextInt();
+    jumlahDokumen = sc.nextInt();
+    System.out.print("Juara (1/2/3/0 untuk tidak juara) = ");
+    juara = sc.nextInt();    
         if (jumlahDokumen == 4){
-            System.out.print("Juara (1/2/3/0 untuk tidak juara) = ");
-            juara = sc.nextInt();
             if ((juara == 1)||(juara == 2)||(juara == 3)){
                 System.out.println("Dokumen Lengkap, Dana Diberikan");}
             else{
@@ -32,8 +31,16 @@ public class StudiKasus2_15 {
     else if (jenisKegiatan.equalsIgnoreCase("pkm")){
         System.out.print("Status Pendanaan (True/False) = ");
         status = sc.nextBoolean();
+        System.out.print("Jumlah Dokumen Yang Diupload = ");
+        jumlahDokumen = sc.nextInt();
         if (status){
-            System.out.println("Dana Penghargaan Diberikam");
+            if (jumlahDokumen == 4){
+                System.out.println("Dokumen Lengkap, Dana Diberikan");
+            }
+            else{
+                System.out.println("Jumlah Dokumen kurang "+(4-jumlahDokumen)+(" , Dana Tidak Diberikan"));
+            }
+            
         }
         else{
             System.out.println("Pendanaan Tidak Lolos, Dana Tidak DIberikan");
