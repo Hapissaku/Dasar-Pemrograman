@@ -6,7 +6,7 @@ public class StudiKasus2_15 {
         boolean status;
 
     Scanner sc = new Scanner(System.in);
-
+ 
     System.out.print("Nama = ");
     nama = sc.nextLine();
     System.out.print("Jenis Kegiatan (BELMAWA, BAKORMA, Mandiri, PKM, dll) = ");
@@ -36,7 +36,7 @@ public class StudiKasus2_15 {
             System.out.println("Dana Penghargaan Diberikam");
         }
         else{
-            System.out.println("Pendanaan Tidak Lolos, Dana Tidak DIberikan");
+            System.out.println("Pendanaan Tidak Lolos, Dana Tidak D Iberikan");
         }
     }
     else{
