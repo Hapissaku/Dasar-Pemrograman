@@ -2,16 +2,16 @@ import java.util.Scanner;
 
 public class JB7_Tugas2_15 {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner sc  = new Scanner(System.in);
         int jenis, durasi, total = 0;
 
         do {
             System.out.print("Input jenis (1 mobil, 2 motor, 0 keluar): ");
-            jenis = input.nextInt();
+            jenis = sc.nextInt();
 
             if (jenis == 1 || jenis == 2) {
                 System.out.print("Input durasi (jam): ");
-                durasi = input.nextInt();
+                durasi = sc.nextInt();
 
                 if (jenis == 1) {
                     total += durasi * 3000;
@@ -22,6 +22,6 @@ public class JB7_Tugas2_15 {
         } while (jenis != 0);
 
         System.out.println("Output total: Rp " + total);
-        input.close();
+        sc.close();
     }
 }
