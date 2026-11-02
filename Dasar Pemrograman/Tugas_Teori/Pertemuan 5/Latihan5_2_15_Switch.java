@@ -26,5 +26,6 @@ public class Latihan5_2_15_Switch {
 
 
 }
+input.close();
 }
 }

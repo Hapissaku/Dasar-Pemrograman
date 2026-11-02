@@ -18,15 +18,6 @@ public class Tugas2_15 {
         System.out.println("***********************************");
 
 
-
-
-
-
-
-
-
-
-
-
+        input.close();
     }
 }

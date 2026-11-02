@@ -20,6 +20,8 @@ public class Tugas1_15 {
     System.out.println("Bunga               : " + bunga);
     System.out.println("Cicilan Tiap  Bulan : " + (((HargaAwal - DP) / Bulan) + ((HargaAwal - DP) * bunga)));
     System.out.println("***********************************");
+
+    input.close();
     
     }
 }

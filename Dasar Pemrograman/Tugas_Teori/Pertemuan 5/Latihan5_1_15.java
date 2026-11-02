@@ -13,5 +13,7 @@ public class Latihan5_1_15{
         System.out.println("Biaya anda adalah = " + tarif);}
     else
         System.out.println("Biaya anda adalah = " + (lama_parkir*1000));
+
+    input.close();
     }
 }

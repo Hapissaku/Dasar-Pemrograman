@@ -23,10 +23,9 @@ public class pt9_Latihan2_15 {
             double bonus = 0;
 
             if (jamKerja > 8) {
-                bonus = gajiHarian * 0.20; // Bonus 20%
+                bonus = gajiHarian * 0.20;
             }
 
-            // Tampilkan hasil
             System.out.println("Bonus yang diterima        : Rp " + bonus);
             System.out.println("Total Gaji (Gaji + Bonus)  : Rp " + (gajiHarian + bonus));
             

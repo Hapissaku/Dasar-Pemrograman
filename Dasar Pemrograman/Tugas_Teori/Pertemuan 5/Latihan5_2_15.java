@@ -22,5 +22,6 @@ public class Latihan5_2_15 {
 }
     else
     System.out.print("Nomor Tidak Valid");
+input.close();
 }
 }
