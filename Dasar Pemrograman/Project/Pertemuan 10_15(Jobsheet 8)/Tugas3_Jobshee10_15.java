@@ -15,7 +15,7 @@ public class Tugas3_Jobshee10_15 {
         int totsemua = 0, max = -1, terbanyak = 0;
 
 
-        for(int i =1; i<= jumlahtoko; i++){
+        for(int i =1; i<= jumlahtoko; i++) {
             System.out.println("----------------------\nToko " + i);
             int jumlahpelanggan;
             System.out.print("Masukkan Jumlah Pelanggan = ");
